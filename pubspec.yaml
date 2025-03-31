@@ -1,0 +1,95 @@
+name: rms
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.19.4 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^2.0.5
+  flutter_login_facebook: ^1.9.0
+  google_sign_in: ^6.2.1
+  flutter_switch: ^0.3.2
+  intl: ^0.18.1
+  multi_dropdown: ^2.1.4
+  google_nav_bar: ^5.0.6
+  google_maps_flutter: ^2.6.0
+  location: ^5.0.3
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  http: ^1.2.1
+  ar_location_view: ^2.0.9
+  geolocator: ^9.0.2
+  uuid: ^4.4.0
+  cupertino_icons: ^1.0.8
+  video_player: ^2.8.6
+  flutter_chat_bubble: ^2.0.2
+  provider: ^6.0.5
+  xmpp_plugin: ^2.2.12
+  native_ar_viewer: ^0.0.2
+  flutter_downloader: ^1.11.7
+  model_viewer_plus: ^1.7.2
+  ar_flutter_plugin_flutterflow: ^0.7.39
+  qr_code_scanner: ^1.0.1
+  download_assets: ^3.2.0
+  device_info_plus: ^10.1.0
+
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+    - assets/icons/
+
+  fonts: 
+    - family: Gilroy
+      fonts: 
+        - asset: assets/fonts/GilroySemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/GilroyMedium.ttf
+          weight: 500
+        - asset: assets/fonts/GilroyRegular.ttf
+          weight: 400
+        - asset: assets/fonts/GilroyBold.ttf
+          weight: 700
+        - asset: assets/fonts/GilroyRegularItalic.ttf
+          weight: 400
+    - family: SF Pro Text
+      fonts: 
+        - asset: assets/fonts/SFProTextRegular.ttf
+          weight: 400
+        - asset: assets/fonts/SFProTextBold.ttf
+          weight: 700
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoRomanSemiBold.ttf
+          weight: 600
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+    - family: Sarala
+      fonts: 
+        - asset: assets/fonts/SaralaBold.ttf
+          weight: 700
+    - family: Helvetica Neue
+      fonts: 
+        - asset: assets/fonts/HelveticaNeue.ttf
+          weight: 400
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+    - family: Open Sans
+      fonts: 
+        - asset: assets/fonts/OpenSansRomanRegular.ttf
+          weight: 400
